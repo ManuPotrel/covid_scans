@@ -1,4 +1,4 @@
-# Covid Project (description in construction)
+# Covid Project
 
 ## Context
 
@@ -22,7 +22,12 @@ Many different preprocessings have been tried to fight off those biases, with ve
 
 You will find four different CNN models here, two relatively simple ones and two inspired by the VGG-16 architecture (one non-preprocessed and one preprocessed each). As expected, the accuracy is suspiciously outstanding and the Grad-CAMs (interpretability) don't impress.
 
+## Deployment
+
+In the deployment folder, you will find our streamlit application, which will enable the online testing of the models.
+
 ## Requirements
 
 You will need to download the data yourself at the link given above.<br>
-If you want to experiment with the U-Net model that was tried, you will need to download (or train) your own weights.
+If you want to experiment with the U-Net model that was tried, you will need to download (or train) your own weights.<br>
+To see the full streamlit app, you may need to build your own dataframes.
